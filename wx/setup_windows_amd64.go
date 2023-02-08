@@ -1,6 +1,6 @@
 package wx
 
-// #cgo CPPFLAGS: -I${SRCDIR}/windows_amd64/ -I${SRCDIR}/../wxWidgets/wxWidgets-3.1.0/include -D_FILE_OFFSET_BITS=64 -D__WXMSW__
+// #cgo CPPFLAGS: -I${SRCDIR}/windows_amd64/ -I${SRCDIR}/../wxWidgets/wxWidgets/include -D_FILE_OFFSET_BITS=64 -D__WXMSW__
 // #cgo !wxgo_binary_package_build LDFLAGS: -L${SRCDIR}/windows_amd64/lib -lwxmsw31u -lwxmsw31u_gl -lwxscintilla -lwxregexu -lwxexpat -lwxtiff -lwxjpeg -lwxpng -lwxzlib
 // #cgo mingw_workaround LDFLAGS: -Wl,--subsystem,windows,--allow-multiple-definition
 // #cgo !mingw_workaround LDFLAGS: -Wl,--subsystem,windows
