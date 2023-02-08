@@ -43,3 +43,7 @@ _testmain.go
 *.exe
 *.out
 *.app
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/wxGo.iml
